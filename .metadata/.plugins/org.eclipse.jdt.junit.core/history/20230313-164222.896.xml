@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun FactorialTest" project="com.Junit.demo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.Junit.demo.FactorialTest" time="0.016" displayname="FactorialTest" uniqueid="[engine:junit-jupiter]/[class:com.Junit.demo.FactorialTest]">
+    <testcase name="check" classname="com.Junit.demo.FactorialTest" time="0.016" displayname="check()" uniqueid="[engine:junit-jupiter]/[class:com.Junit.demo.FactorialTest]/[method:check()]"/>
+  </testsuite>
+</testrun>

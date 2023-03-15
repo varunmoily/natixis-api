@@ -1,0 +1,17 @@
+package com.customer.crud.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.customer.crud.module.Customer;
+
+@Service
+public class ServiceCust {
+	
+	public List<Customer> fetchAllData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

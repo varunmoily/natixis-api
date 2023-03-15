@@ -1,0 +1,6 @@
+projectKey=sonar-first-demo:com.sonar.demo
+serverUrl=http://localhost:9000
+serverVersion=8.9.10.61524
+dashboardUrl=http://localhost:9000/dashboard?id=sonar-first-demo%3Acom.sonar.demo
+ceTaskId=AYah1Pn8nuN0IWprX6--
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYah1Pn8nuN0IWprX6--

@@ -1,0 +1,12 @@
+package com.example.demo;
+
+
+
+public class SampleController {
+	
+	@RequestMapping("/good")
+	public String sayHello() {
+		return "Hi How R u?";
+	}
+
+}

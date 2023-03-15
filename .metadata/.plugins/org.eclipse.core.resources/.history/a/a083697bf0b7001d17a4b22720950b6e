@@ -1,0 +1,29 @@
+package com.example.demo.Repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.Model.Student;
+
+@Service
+public class StudentRepository {
+	
+	private List<Student> studList;
+	
+	public StudentRepository() {
+		studList=new ArrayList<Student>();
+		studList.add(new Student(1,"varun",67,25000));
+		studList.add(new Student(2,"tharun",87,45000));
+		studList.add(new Student(3,"dharun",47,55000));
+		studList.add(new Student(4,"sarun",45,65000));
+		
+	}
+	public List<Student> fetchAllStudentData(){
+		return studList;
+		
+	}
+	
+	
+}

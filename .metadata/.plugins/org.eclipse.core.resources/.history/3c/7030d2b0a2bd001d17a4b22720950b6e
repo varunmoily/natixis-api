@@ -1,0 +1,36 @@
+package com.DemoStudent.Controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.DemoStudent.Module.Student;
+import com.DemoStudent.Service.StudentService;
+
+@RestController
+public class StudentController {
+	
+	@Autowired
+	StudentService stuService;
+	
+	@GetMapping("/all")
+	@CrossOrigin("http://localhost:4200")
+	public List<Student> getAllStudents(){
+		return stuService.getAllStudents();
+	}
+	
+	@GetMapping("/fetch")
+	@CrossOrigin("http://localhost:4200")
+	public List<Student> fetchMarks(int marks){
+		return stuService.fetchMarks(marks);
+	}
+	
+	@GetMapping("/search")
+	@CrossOrigin("http://localhost:4200")
+	public List<Student> getSpecifiedStudent(int marks){
+		return stuService.getStudentByMarks(marks);
+	}
+}

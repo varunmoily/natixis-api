@@ -1,0 +1,20 @@
+package com.Pipe.demo.Controller;
+
+import java.sql.Array;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@CrossOrigin(origins = "")
+public class EmpController {
+	
+	@GetMapping("/all")
+	public<Employee> getAllEmployees(){
+		return Array.asList(
+				new Employee(120,"abdul","1998-7-21",17000,new Date()),
+				new Employee(164,"rahul","1978-7-15",37000,new Date()),
+				new Employee(140,"ram","1668-9-17",46000,new Date())
+	};
+}

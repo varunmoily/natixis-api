@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Demo1" project="Integration-demo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.imarticus.demo.Demo1" time="0.0" displayname="Demo1" uniqueid="[engine:junit-jupiter]/[class:com.imarticus.demo.Demo1]">
+    <testcase name="test" classname="com.imarticus.demo.Demo1" time="0.0" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.imarticus.demo.Demo1]/[method:test()]"/>
+  </testsuite>
+</testrun>

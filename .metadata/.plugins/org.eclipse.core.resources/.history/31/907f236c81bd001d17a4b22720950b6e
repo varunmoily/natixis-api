@@ -1,0 +1,20 @@
+package com.DemoStudent.Service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.DemoStudent.Module.Student;
+
+@Service
+public class StudentService {
+	
+	@Autowired
+	StudentRepo stuRepo;
+
+	public List<Student> getAllStudents() {
+		return stuRepo.getAllStudents();
+	}
+
+}

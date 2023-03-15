@@ -1,0 +1,17 @@
+package com.example.demodb.StudRepo;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demodb.Model1.Student1;
+
+@Service
+public class StudRepo extends JpaRepository<Student1, Integer>{
+
+	public List<Student1> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

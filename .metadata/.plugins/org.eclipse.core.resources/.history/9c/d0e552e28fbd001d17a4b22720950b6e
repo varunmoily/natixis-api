@@ -1,0 +1,30 @@
+package com.DemoStudent.Repo;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+import com.DemoStudent.Module.Student;
+
+@Component
+public class StudentRepo {
+	
+	List<Student> stuList = Arrays.asList(
+			new Student(100,"sumanth",98,30000),
+			new Student(200,"madhu",88,90000),
+			new Student(300,"bashasir",78,40000),
+			new Student(400,"sandesh",68,39000)
+			);
+
+	public List<Student> getAllStudents() {
+		// TODO Auto-generated method stub
+		return stuList;
+	}
+
+	public List<Student> fetchMarks(marks) {
+		// TODO Auto-generated method stub
+		return stuList.stream().filter(x->x.getMarks()>marks).collect(collectors.toList());
+	}
+
+}

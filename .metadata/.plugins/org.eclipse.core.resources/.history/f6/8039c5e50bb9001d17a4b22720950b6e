@@ -1,0 +1,19 @@
+package com.teacher.crud.repo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.teacher.crud.module.Teacher;
+
+public class Repo {
+	public List<Teacher> teacher;
+
+	public Repo() {
+		teacher = new ArrayList<Teacher>();
+		teacher.add(new Teacher(1,"kusuma","english"));
+		teacher.add(new Teacher(2,"jaya","java"));
+		teacher.add(new Teacher(3,"wilma","python"));
+		
+	}
+	
+}

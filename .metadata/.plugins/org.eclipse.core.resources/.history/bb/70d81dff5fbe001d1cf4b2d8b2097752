@@ -1,0 +1,13 @@
+package com.Pipe.demo.Controller;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@CrossOrigin(origins = "")
+public class EmpController {
+	public<Employee> getAllEmployees(){
+		return Array.asList(
+				new Employee(120,"abdul","1998-7-11",47000,new date()),
+	}
+}

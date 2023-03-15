@@ -1,0 +1,37 @@
+package com.Junit.demo;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import javax.naming.LimitExceededException;
+
+import org.junit.jupiter.api.Test;
+
+class BankTest {
+
+	@Test
+	public void balanceCheck() {
+		BankAccount b = new BankAccount("varun",50000);
+		assertThrows(LimitExceededException.class, ()->b.deposit(10000));
+		
+	}
+	@Test
+	public void balance() throws LimitExceededException {
+		BankAccount b1 = new BankAccount("arun",25000);
+		assertEquals(3000,b1.deposit(5000));
+	}
+	
+	@Test
+	public void withdraw() throws WithdrawException {
+		BankAccount w = new BankAccount("arun",25000);
+		assertThrows(WithdrawException.class, ()->w.withdraw(30000));
+	}
+	
+	@Test
+	public void withdraw1() throws WithdrawException {
+		BankAccount w1 = new BankAccount("sumanth",30000);
+		assertEquals(20000,w1.withdraw(5000));
+	}
+	
+	}
+
+

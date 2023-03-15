@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun FactorialTest" project="com.Junit.demo" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.Junit.demo.FactorialTest" time="0.027" displayname="FactorialTest" uniqueid="[engine:junit-jupiter]/[class:com.Junit.demo.FactorialTest]">
+    <testcase name="check" classname="com.Junit.demo.FactorialTest" time="0.027" displayname="check()" uniqueid="[engine:junit-jupiter]/[class:com.Junit.demo.FactorialTest]/[method:check()]">
+      <failure>
+        <expected>123
+
+</expected>
+        <actual>120
+
+</actual>
+        org.opentest4j.MultipleFailuresError: Multiple Failures (1 failure)&#13;
+	expected: &lt;123&gt; but was: &lt;120&gt;&#13;
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)&#13;
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)&#13;
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)&#13;
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2807)&#13;
+	at com.Junit.demo.FactorialTest.check(FactorialTest.java:12)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:628)&#13;
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:117)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:184)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:180)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:127)&#13;
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)&#13;
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)&#13;
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)&#13;
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)&#13;
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)&#13;
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)&#13;
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)&#13;
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)&#13;
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+	Suppressed: org.opentest4j.AssertionFailedError: expected: &lt;123&gt; but was: &lt;120&gt;&#13;
+		at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)&#13;
+		at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)&#13;
+		at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)&#13;
+		at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)&#13;
+		at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)&#13;
+		at com.Junit.demo.FactorialTest.lambda$0(FactorialTest.java:13)&#13;
+		at org.junit.jupiter.api.AssertAll.lambda$assertAll$1(AssertAll.java:68)&#13;
+		at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)&#13;
+		at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)&#13;
+		at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)&#13;
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)&#13;
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)&#13;
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)&#13;
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)&#13;
+		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)&#13;
+		... 57 more&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

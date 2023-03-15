@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun BankTest" project="com.Junit.demo" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.Junit.demo.BankTest" time="0.027" displayname="BankTest" uniqueid="[engine:junit-jupiter]/[class:com.Junit.demo.BankTest]">
+    <testcase name="withdraw" classname="com.Junit.demo.BankTest" time="0.016" displayname="withdraw()" uniqueid="[engine:junit-jupiter]/[class:com.Junit.demo.BankTest]/[method:withdraw()]"/>
+    <testcase name="balance" classname="com.Junit.demo.BankTest" time="0.003" displayname="balance()" uniqueid="[engine:junit-jupiter]/[class:com.Junit.demo.BankTest]/[method:balance()]"/>
+    <testcase name="withdraw1" classname="com.Junit.demo.BankTest" time="0.001" displayname="withdraw1()" uniqueid="[engine:junit-jupiter]/[class:com.Junit.demo.BankTest]/[method:withdraw1()]"/>
+    <testcase name="balanceCheck" classname="com.Junit.demo.BankTest" time="0.002" displayname="balanceCheck()" uniqueid="[engine:junit-jupiter]/[class:com.Junit.demo.BankTest]/[method:balanceCheck()]"/>
+  </testsuite>
+</testrun>

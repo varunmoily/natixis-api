@@ -1,0 +1,7 @@
+package com.Junit.demo;
+
+public class MathCalculation {
+	public int add(int a,int b) {
+		return a+b;
+}
+}

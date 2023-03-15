@@ -1,0 +1,5 @@
+package com.imarticus.demo.Repo;
+
+public interface BookRepo {
+
+}

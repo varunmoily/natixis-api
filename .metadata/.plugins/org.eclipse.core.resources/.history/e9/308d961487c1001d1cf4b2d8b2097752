@@ -1,0 +1,40 @@
+package com.Junit.demo;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import javax.naming.LimitExceededException;
+
+import org.junit.jupiter.api.Test;
+
+class BankAccount {
+	private String name;
+	private int balanceAmount;
+	public BankAccount(String name, int balanceAmount) {
+		super();
+		this.name = name;
+		this.balanceAmount = balanceAmount;
+		
+	}
+	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getBalanceAmount() {
+		return balanceAmount;
+	}
+	public void setBalanceAmount(int balanceAmount) {
+		this.balanceAmount = balanceAmount;
+	}
+	public void deposite(int amt) throws LimitExceededException{
+		
+		if(amt<50000) this.balanceAmount = this.balanceAmount+amt;
+		else throw new LimitExceededException("amount more than.."+amt);
+	}
+
+
+}

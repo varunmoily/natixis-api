@@ -1,0 +1,5 @@
+package com.Junit.demo;
+
+public class LimitExceededException {
+
+}

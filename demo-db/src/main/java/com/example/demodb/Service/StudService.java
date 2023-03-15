@@ -1,0 +1,36 @@
+package com.example.demodb.Service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demodb.Model1.Student;
+import com.example.demodb.StudRepo.StudRepo;
+
+@Service
+public class StudService {
+	
+	@Autowired
+	private StudRepo studRepos;
+	
+	public List<Student> fetchAllStudents(){
+		return studRepos.findAll();
+	}
+	public String updateStuRec(Student stu) {
+		String res = "";
+		try {
+			Student existsStuRec = studRepos.findById(stu.getId()).get();
+			if(existsStuRec != null) {
+				studRepos.save(stu);
+				return "successfully updated student data";
+			}
+		}catch(Exception e) {
+			return "Student record not found!";
+		}
+		return "Student record not found!";
+		
+	}
+	
+
+}

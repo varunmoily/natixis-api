@@ -1,0 +1,19 @@
+package com.example.demodb.StudRepo;
+
+import java.util.List;
+
+import org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;
+import org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension;
+import org.springframework.stereotype.Service;
+
+import com.example.demodb.Model1.Student1;
+
+@Service
+public class StudRepo
+
+	public List<Student1> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

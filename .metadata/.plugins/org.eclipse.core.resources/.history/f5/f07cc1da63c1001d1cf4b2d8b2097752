@@ -1,0 +1,39 @@
+package com.Junit.demo;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MathCalculationTest {
+
+	@Test
+	public void test() {
+		MathCalculation m = new MathCalculation();
+		int real = m.add(10, 20);
+		int actual = 30;
+		assertEquals(real, actual);
+	}
+	@Test
+	public void demo2() {
+		MathCalculation m = new MathCalculation();
+		int real = m.add(10, 20);
+		int actual = 40;
+		assertEquals(real, actual);
+	}
+	@Test
+	public void demo3() {
+		MathCalculation m = new MathCalculation();
+		int real = m.add(10, 20);
+		int actual = 30;
+		boolean res = actual==real?true:false;
+		assertTrue(res);
+	}
+	@Test
+	public void demo4() {
+		MathCalculation m = new MathCalculation();
+		int real = m.add(10, 20);
+		int actual = 30;
+		boolean res = actual==real?true:false;
+		assertTrue(res);
+	}
+}

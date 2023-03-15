@@ -1,0 +1,21 @@
+package com.example.demodb.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demodb.Model1.Student;
+import com.example.demodb.StudRepo.StudRepo;
+
+import antlr.collections.List;
+
+@Service
+public class StudService {
+	
+	@Autowired
+	private StudRepo studRepo;
+	
+	public List<Student> fetchAllStudents(){
+		return studRepo.findAll();
+	}
+
+}
